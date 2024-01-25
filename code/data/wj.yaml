@@ -1,0 +1,27 @@
+train: /data/2d_dataset/train.txt
+val: /data/2d_dataset/val.txt
+
+# number of classes
+nc: 19
+
+# class names
+names:
+  1 : person
+'bicycle',
+'tricycle',
+'car',
+'truck',
+'bus',
+'dump_truck',
+'road_cones',
+'others_bicycle_per',
+'MTfood_bicycle_per',
+'ELMfood_bicycle_per',
+'JD_tricycle',
+'SF_tricycle',
+'YZ_tricycle',
+'YD_tricycle',
+'slagcar',
+'tanker',
+'road_work_sign',
+'parking_tripod']
